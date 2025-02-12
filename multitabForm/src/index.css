@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background: black;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Tabs Styling */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #ddd;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.tabs button.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button.next-btn {
+  padding: 10px 15px;
+  border: none;
+  background: blue;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.3s;
+}
+
+button.next-btn:hover {
+  background: darkblue;
+}
+
+/* Error Messages */
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+/* interest */
+
+.select-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background: #fff;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button.next-btn {
+  margin-top: 10px;
+}
+
+/* settings */
+
+.radio-button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+button.submit-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: green;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.submit-btn:hover {
+  background: darkgreen;
+}
